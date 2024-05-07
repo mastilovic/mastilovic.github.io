@@ -1,132 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles\styling.css" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles\styling.css"/>
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100;200&display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100;200&display=swap"
+            rel="stylesheet"
     />
     <title>Portfolio</title>
-  </head>
-  <body>
-    <div class="main">
-      <div class="header">
-        <h1 class="font header-header">Aleksandar Mastilovic</h1>
-        <p class="font header-p">Backend</p>
-      </div>
-      <div id="wrapper">
-        <div class="div-left">
-          <ul>
-            <li>
-              <div class="progress one">
-                <h3 class="header-content-left">
-                  <b>SUMMARY</b>
-                  <span class="span-content-left"></span>
-                </h3>
-                <p class="p-text-content-left">
-                  Graduated in 2021 december in IT field. Backend entry level
-                  experience in Java spring boot.
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="progress two">
-                <h3 class="header-content-left">
-                  <b>EDUCATION</b> <span class="span-content-left"></span>
-                </h3>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#projects">Personal Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
 
-                <p class="p-text-content-left"><b>December 2021</b></p>
-                <p class="p-text-content-left">
-                  <b>Akademija strukovnih studija, odsek Sumadija </b>
-                </p>
-                <p class="p-text-content-left">Arandjelovac</p>
-                <p class="p-text-content-left">
-                  Bachelors degree, Informational Technologies
-                </p>
-                <p class="p-text-content-left">Honors: (GPA: unknown)</p>
-              </div>
-            </li>
-            <li>
-              <div class="progress three">
-                <h3 class="header-content-left">
-                  <b>RELEVANT SKILLS</b> <span class="span-content-left"></span>
-                </h3>
-                <div class="skills-bar">
-                  <label class="skill-name">Java</label>
-                  <progress id="file" value="15" max="100"></progress
-                  ><label class="skill-num">15%</label>
-                </div>
-                <br />
-                <div class="skills-bar">
-                  <label class="skill-name">Spring Boot</label>
-                  <progress id="file" value="15" max="100"></progress
-                  ><label class="skill-num">15%</label>
-                </div>
-                <br />
-                <div class="skills-bar">
-                  <label class="skill-name">HTML+CSS</label>
-                  <progress id="file" value="1" max="100"></progress
-                  ><label class="skill-num">1%</label>
-                </div>
-                <br />
-                <div class="skills-bar">
-                  <label class="skill-name">MySQL</label>
-                  <progress id="file" value="15" max="100"></progress>
-                  <label class="skill-num">15%</label>
-                </div>
-                <br />
-              </div>
-            </li>
-            <li>
-              <div class="progress four">
-                <h3 class="header-content-left">
-                  <b>CERTIFICATION</b> <span class="span-content-left"></span>
-                </h3>
-                <p class="p-text-content-left">none</p>
-              </div>
-            </li>
-          </ul>
-        </div>
+<aside id="sidebar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</aside>
 
-        <div class="div-right">
-          <ul>
-            <li>
-              <div class="progress one">
-                <h3 class="header-content-right">
-                  <span class="span-content-right"></span>
-                  <b>CONTACT </b>
-                </h3>
-                <p class="p-text-content-right contact-p">
-                  <b>Phone: </b>(+381) 60 *******
-                </p>
-
-                <p class="p-text-content-right contact-p">
-                  <b>Email: </b>aleksandar96.m@gmail.com
-                </p>
-
-                <p class="p-text-content-right contact-p">
-                  <b>LinkedIn: </b>https://www.linkedin.com/in/salexd/
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="progress one">
-                <h3 class="header-content-right">
-                  <span class="span-content-right"></span>
-                  <b>PROFESSIONAL EXPERIENCE</b>
-                </h3>
-                <ul class="my-exp-list">
-                  <b>Prodyna 2022:</b>
-                  <li>Backend Developer</li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
+<section class="section" id="home">
+    <div class="section-content">
+        <h1>Welcome to My Portfolio</h1>
+        <p>My name is Aleksandar Mastilović and I'm a Software Engineer. Feel free to explore my page!</p>
     </div>
-  </body>
+</section>
+
+<section class="section" id="about">
+    <div class="section-content">
+        <h2>About Me</h2>
+        <p>Dedicated Software Engineer with expertise in Java and Spring Boot, comfortable with Scrum methodology.
+            Collaborative team player with a commitment to ongoing learning and knowledge sharing.
+            Always interested to expand my knowledge in all areas of software development.
+        </p>
+    </div>
+</section>
+
+<section class="section" id="education">
+    <div class="section-content">
+        <h2>Education</h2>
+        <p><b>Bachelor Degree in Informational Technologies</b> - <i>Academy of Vocational Studies, Šumadija (2021)</i></p>
+    </div>
+</section>
+
+<section class="section" id="skills">
+    <div class="section-content">
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>Java 8+</li>
+            <li>Spring Boot</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Neo4j</li>
+            <li>Reactive Java - Project Reactor</li>
+            <li>Unit & integration testing</li>
+            <li>Typescript</li>
+            <li>Angular</li>
+            <li>Keycloak</li>
+            <li>Git</li>
+        </ul>
+    </div>
+</section>
+
+<section class="section" id="experience">
+    <div class="section-content">
+        <h2>Work Experience</h2>
+        <ul>
+            <li class="companies">
+                <p class="title-name">PRODYNA | September 2022 - Present</p>
+                <p class="position">Intermediate Software Engineer | IT Consultant</p>
+                <ul class="assignments">
+                    <li>Working on Spring Boot 2.7+ microservices with Java 8+</li>
+                    <li>Writing clean and maintainable code,</li>
+                    <li>Utilizing reactive java,</li>
+                    <li>Utilizing functional interfaces,</li>
+                    <li>Implementing unit and integration tests,</li>
+                    <li>Independent & pair programming development,</li>
+                    <li>Creating documentation for other developers,</li>
+                    <li>Presenting solutions to clients.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="section" id="projects">
+    <div class="section-content">
+        <h2>Personal Projects</h2>
+        <ul>
+            <li>
+                <p class="title-name">Fullstack Angular Spring Boot Application</p>
+                <p class="description">
+                    <b>Backend:</b> Spring Boot project built with Java 11, MySQL Database, Gradle, Authentication and Authorization, Dockerized app. Deployed application on a local minikube cluster. Created github actions and implemented CI workflow process for main branch.
+                    <br>Link: <a href="https://github.com/mastilovic/rekreativ-startup" target="_blank"><i>https://github.com/mastilovic/rekreativ-startup</i></a>
+                    <br><br>
+                    <b>Frontend:</b> Implemented registration and login pages for users. Utilizing RxJS for handling requests. Created github actions and implemented CI workflow process for main branch.
+                    <br>Link: <a href="https://github.com/mastilovic/rekreativ-frontend" target="_blank"><i>https://github.com/mastilovic/rekreativ-frontend</i></a>
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <div class="section-content">
+        <h2>Contact Me</h2>
+        <div class="contact-description">
+            <img class="logo-image" src="images/phone-logo-white.png"/>
+            <p>+381604244501</p>
+        </div>
+        <div class="contact-description">
+            <img class="logo-image" src="images/email-logo.png"/>
+            <p>aleksandar96.m@gmail.com</p>
+        </div>
+        <div class="contact-description">
+            <img class="logo-image" src="images/location-logo.png"/>
+            <p>Serbia, Belgrade</p>
+        </div>
+        <div class="contact-description">
+            <img class="logo-image" src="images/github-logo.png"/>
+            <p><a class="contact-links" href="https://www.github.com/mastilovic" target="_blank"><i>www.github.com/mastilovic</i></a></p>
+        </div>
+        <div class="contact-description">
+            <img class="logo-image" src="images/linkedin-logo.png"/>
+            <p><a class="contact-links" href="https://www.linkedin.com/in/salexd" target="_blank"><i>www.linkedin.com/in/salexd</i></a></p>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
 </html>
