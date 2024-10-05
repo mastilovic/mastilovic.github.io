@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles\styling.css"/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100;200&display=swap"
+            rel="stylesheet"
+    />
+    <title>Portfolio</title>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#projects">Personal Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+
+<aside id="sidebar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</aside>
+
+<section class="section" id="home">
+    <div class="section-content">
+        <h1>Welcome to My Portfolio</h1>
+        <p>My name is Aleksandar Mastilović, and I'm a Software Engineer. Feel free to explore my page!</p>
+    </div>
+</section>
+
+<section class="section" id="about">
+    <div class="section-content">
+        <h2>About Me</h2>
+        <p>
+            Dedicated Software Engineer with expertise in Java and Spring Boot, comfortable with Scrum methodology.
+            Collaborative team player with a commitment to ongoing learning and knowledge sharing.
+            Always interested to expand my knowledge in all areas of software development.
+        </p>
+    </div>
+</section>
+
+<section class="section" id="education">
+    <div class="section-content">
+        <h2>Education</h2>
+        <p><b>Bachelor Degree in Informational Technologies</b> - <i>Academy of Vocational Studies, Šumadija (2015 - 2021)</i></p>
+    </div>
+</section>
+
+<section class="section" id="skills">
+    <div class="section-content">
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>Java 8+</li>
+            <li>Spring Boot</li>
+            <li>Spring Security</li>
+            <li>Spring JPA</li>
+            <li>Spring Webflux</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Docker</li>
+            <li>Reactive Java - Project Reactor</li>
+            <li>Unit & integration testing</li>
+            <li>Keycloak</li>
+            <li>Git</li>
+            <li>Python</li>
+        </ul>
+    </div>
+</section>
+
+<section class="section" id="experience">
+    <div class="section-content">
+        <h2>Work Experience</h2>
+        <ul>
+            <li class="companies">
+                <p class="title-name">PRODYNA | September 2022 - Present</p>
+                <p class="position">Intermediate Software Engineer | IT Consultant</p>
+                <ul class="assignments">
+                    <li>Engaged in developing and maintaining web applications using Java 8+ and Spring Boot 2.7+,</li>
+                    <li>Utilizing PostgreSQL/MySQL for relational databases,</li>
+                    <li>Utilizing both imperative and functional programming for backend development,</li>
+                    <li>Utilizing keycloak as identity provider on various projects,</li>
+                    <li>Proficient in writing unit and integration tests,</li>
+                    <li>Building asynchronous API's in Java,</li>
+                    <li>Understanding of CI/CD pipeline jobs,</li>
+                    <li>Building Proof of Concept project that integrates OpenAI Chat bot via Azure Services into backend
+                    project using Python and Flask,</li>
+                    <li>Working independently, as well as taking part in pair programming,</li>
+                    <li>Actively taking part in pull request reviews,</li>
+                    <li>Creating written documentation for other developers and providing openapi collections,</li>
+                    <li>Agile development according to SCRUM,</li>
+                    <li>Actively having meetings with clients, discussing new features and presenting solutions.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="section" id="projects">
+    <div class="section-content">
+        <h2>Personal Projects</h2>
+        <ul>
+            <li>
+                <p class="title-name">Fullstack Angular Spring Boot Application</p>
+                <p class="description">
+                    <b>Backend:</b> Spring Boot 2.7.8 project built with Java 11, MySQL Database, Gradle, Spring Security, and
+                    Dockerized app. Created docker compose for development, as well as docker compose that runs
+                    full stack ready to use - can be found in both frontend and backend repositories. Deployed
+                    application on a local minikube cluster. Created github actions and implemented CI workflow
+                    process for main branch.
+                    <br>Link: <a href="https://github.com/mastilovic/rekreativ-startup" target="_blank"><i>https://github.com/mastilovic/rekreativ-startup</i></a>
+                    <br><br>
+                    <b>Frontend:</b> Created Angular frontend single page application with Typescript, and dockerized
+                    application. Implemented registration and login pages for users. Utilizing RxJS for handling
+                    requests. Created github actions and implemented CI workflow process for main branch.
+                    <br>Link: <a href="https://github.com/mastilovic/rekreativ-frontend" target="_blank"><i>https://github.com/mastilovic/rekreativ-frontend</i></a>
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <div class="section-content">
+        <h2>Contact Me</h2>
+        <div class="contact-description">
+            <img class="logo-image" src="images/email-logo.png" alt=""/>
+            <p>aleksandar96.m@gmail.com</p>
+        </div>
+        <div class="contact-description">
+            <img class="logo-image" src="images/location-logo.png" alt=""/>
+            <p>Serbia, Belgrade</p>
+        </div>
+        <div class="contact-description">
+            <img class="logo-image" src="images/github-logo.png" alt=""/>
+            <p><a class="contact-links" href="https://www.github.com/mastilovic" target="_blank"><i>www.github.com/mastilovic</i></a></p>
+        </div>
+        <div class="contact-description">
+            <img class="logo-image" src="images/linkedin-logo.png" alt=""/>
+            <p><a class="contact-links" href="https://www.linkedin.com/in/salexd" target="_blank"><i>www.linkedin.com/in/salexd</i></a></p>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

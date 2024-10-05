@@ -1,0 +1,177 @@
+/* General styles */
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: #212121; /* Medium shade of gray */
+    color: #fff; /* Light gray text color */
+}
+
+.section {
+    display: grid;
+    place-content: left;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #212121; /* Darker shade of gray */
+    margin-bottom: 1px;
+    margin-left: 30%;
+}
+
+.section div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section-content {
+    width: 50%;
+}
+
+.logo-image {
+    width:30px;
+    height:30px;
+}
+
+.contact-description {
+    display: flex;
+    margin-top: 2%;
+}
+
+.contact-description p {
+    padding: 1%;
+    margin: 0;
+}
+
+.title-name {
+    font-weight: bold;
+    font-size: 18.5px;
+}
+
+.skills {
+    columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.assignments li::before {
+    content: "";
+    display: inline-block;
+    width: 9px; /* Adjust the width of the line */
+    height: 1px; /* Adjust the height of the line */
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-right: 10px; /* Adjust the spacing between the line and the text */
+}
+
+#skills li::before {
+    content: "";
+    display: inline-block;
+    width: 9px; /* Adjust the width of the line */
+    height: 1px; /* Adjust the height of the line */
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-right: 10px; /* Adjust the spacing between the line and the text */
+}
+
+.position {
+    font-style: italic; /* Applying italic style */
+}
+
+.assignments {
+    padding: auto;
+}
+
+/* Header styles */
+header {
+    background-color: #171717; /* Dark gray */
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffc107; /* Yellow */
+}
+
+/* Sidebar styles */
+#sidebar {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    padding: 20px;
+    z-index: 1000;
+    display: none;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+
+/* Add line before each page name */
+#sidebar ul li::before {
+    content: "";
+    display: inline-block;
+    width: 40px; /* Adjust the width of the line */
+    height: 1px; /* Adjust the height of the line */
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-right: 10px; /* Adjust the spacing between the line and the text */
+}
+
+/* Show the sidebar when scrolling down */
+.show-sidebar {
+    display: block;
+}
+
+/* Anchor link styles */
+a {
+    color: #007bff; /* Light blue */
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffc107; /* Light green */
+}
+
+.contact-links {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li a.active {
+    color: #ffc107; /* Yellow - Change as needed */
+    font-weight: bold; /* Add any other styles you want for the active item */
+}
